@@ -65,11 +65,41 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+html{
+    font-size: 62.5%
+}
 
 .container {
-    width: 800px;
+    width: 100%;
+    max-width: 700px;
     margin: 0 auto;
 }
+
+nav {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    box-sizing: border-box;
+}
+
+nav img{
+    width: 25%;
+    padding: 5%;
+}
+
+ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin: auto;
+  }
+
+  li{
+      margin: 5%;
+      font-size: 1.6rem;
+
+  }
 
 .top-content {
     display: flex;
